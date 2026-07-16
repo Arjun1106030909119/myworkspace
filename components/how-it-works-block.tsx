@@ -42,7 +42,7 @@ export default function HowItWorksBlock() {
             Up and running in four steps
           </h2>
           <p className="mt-3 text-muted-foreground">
-            Acme is designed for momentum. Go from sign-up to full team
+            Myworkspace is designed for momentum. Go from sign-up to full team
             collaboration without a single support ticket.
           </p>
         </div>

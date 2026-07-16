@@ -4,7 +4,7 @@ import HeaderBlock from "@/components/header-block"
 import HeroBlock from "@/components/hero-block"
 import NewsletterBlock from "@/components/newsletter-block"
 import FooterBlock from "@/components/footer-block"
-import { Button } from "@/components/ui/button"
+import CookieConsentBlock from "@/components/cookie-consent-block"
 
 export default function Page() {
   return (
@@ -15,6 +15,7 @@ export default function Page() {
     <NewsletterBlock />
     <CtaBlock />
     <FooterBlock />
+    <CookieConsentBlock />
     </>
   )
 }

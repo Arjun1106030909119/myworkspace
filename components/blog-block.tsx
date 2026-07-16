@@ -70,7 +70,7 @@ const posts = [
   },
   {
     category: "Company",
-    title: "Why Acme is going remote-first in 2026",
+    title: "Why Myworkspace is going remote-first in 2026",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
     excerpt:
@@ -115,10 +115,10 @@ export default function BlogBlock() {
         <div className="mb-10 flex flex-col gap-3">
           <Badge variant="secondary" className="w-fit">
             <RiBookmarkLine data-icon="inline-start" />
-            The Acme Blog
+            The Myworkspace Blog
           </Badge>
           <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Stories from the team building Acme
+            Stories from the team building Myworkspace
           </h1>
           <p className="max-w-2xl text-muted-foreground">
             Engineering deep dives, design notes, and the product decisions
@@ -159,7 +159,10 @@ export default function BlogBlock() {
               </div>
             </div>
             <div>
-              <Button render={<a href="#" />} nativeButton={false}>
+              <Button
+                render={<a href="#" aria-label="Read Article" />}
+                nativeButton={false}
+              >
                 Read Article
                 <RiArrowRightLine data-icon="inline-end" />
               </Button>

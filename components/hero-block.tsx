@@ -29,13 +29,13 @@ export default function HeroBlock() {
         </p>
 
         <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
-          <Button render={<a href="#" />} nativeButton={false}>
+          <Button render={<a href="#" aria-label="Get Started" />} nativeButton={false}>
             Get Started
             <RiArrowRightLine data-icon="inline-end" aria-hidden="true" />
           </Button>
           <Button
             variant="outline"
-            render={<a href="#" />}
+            render={<a href="#" aria-label="Learn More" />}
             nativeButton={false}
           >
             Learn More

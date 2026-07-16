@@ -99,7 +99,7 @@ export default function IntegrationsBlock() {
             Plug in to everything your team uses
           </h2>
           <p className="mt-4 text-sm text-muted-foreground">
-            Acme connects with the tools already in your workflow, no custom
+            Myworkspace connects with the tools already in your workflow, no custom
             code or middleware required.
           </p>
         </div>

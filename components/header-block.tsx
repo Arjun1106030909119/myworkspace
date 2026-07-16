@@ -13,19 +13,19 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
+import Link from "next/link";
 
 const navLinks = [
-  { label: "Products", href: "#" },
-  { label: "Solutions", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Docs", href: "#" },
-  { label: "Blog", href: "./" },
+  { label: "Home", href: "/" },
+  { label: "Career", href: "/career" },
+  { label: "Integration", href: "/integration" },
+  { label: "Contact", href: "/contact" },
+  { label: "Blog", href: "/blog" },
 ]
 
 export default function HeaderBlock() {
   return (
-    <section className="flex min-h-svh w-full flex-col bg-background text-foreground">
-      <header className="relative flex h-16 w-full items-center border-b border-border px-6">
+      <section className="w-full bg-background text-foreground">      <header className="relative flex h-16 w-full items-center border-b border-border px-6">
         <a href="#" className="flex shrink-0 items-center gap-2.5">
           <div className="grid grid-cols-2 gap-0.5" aria-hidden="true">
             <div className="size-2.5 bg-primary" />
@@ -33,7 +33,7 @@ export default function HeaderBlock() {
             <div className="size-2.5 bg-primary" />
             <div className="size-2.5 bg-primary" />
           </div>
-          <span className="text-base font-bold tracking-tight">Acme</span>
+          <span className="text-base font-bold tracking-tight">Myworkspace</span>
         </a>
 
         <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 md:flex">
@@ -128,10 +128,10 @@ export default function HeaderBlock() {
         </div>
       </header>
 
-      <div className="flex-1 px-6 py-10">
+      <div className="px-6 py-8">
         <div className="mx-auto w-full max-w-4xl">
           <div className="flex flex-col gap-3">
-            <h1 className="text-3xl font-bold">Welcome to Acme</h1>
+            <h1 className="text-3xl font-bold">Welcome to Myworkspace</h1>
             <p className="text-muted-foreground">Delivering great products and delightful experiences.</p>
           </div>
         </div>

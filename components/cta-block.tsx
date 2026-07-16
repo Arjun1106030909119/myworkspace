@@ -9,7 +9,7 @@ export default function CtaBlock() {
         <div className="mx-auto flex w-full max-w-5xl flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-col gap-3">
             <h2 className="text-3xl font-bold tracking-tight text-primary-foreground sm:text-4xl">
-              Acme is the fastest way to ship.
+              Myworkspace is the fastest way to ship.
             </h2>
             <p className="max-w-xl text-base text-primary-foreground/80">
               Join thousands of teams who build and deploy production interfaces
@@ -19,7 +19,7 @@ export default function CtaBlock() {
           <div className="shrink-0">
             <Button
               variant="secondary"
-              render={<a href="#" />}
+              render={<a href="#" aria-label="Get Started Free" />}
               nativeButton={false}
               className="w-full sm:w-auto"
             >

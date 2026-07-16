@@ -9,7 +9,7 @@ import {
   RiSunLine,
   RiTwitterXLine,
 } from "@remixicon/react"
-import { useTheme } from "next-themes"
+import { useTheme } from "@/components/theme-provider"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -81,7 +81,7 @@ export default function FooterBlock() {
               <span className="flex size-8 items-center justify-center rounded-none bg-primary text-sm font-bold text-primary-foreground">
                 A
               </span>
-              <span className="text-lg font-semibold tracking-tight">Acme</span>
+              <span className="text-lg font-semibold tracking-tight">Myworkspace</span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
               The composable platform teams use to ship polished products
@@ -128,7 +128,7 @@ export default function FooterBlock() {
         <div className="flex flex-col-reverse items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm text-muted-foreground">
             © <span suppressHydrationWarning>{new Date().getFullYear()}</span>{" "}
-            Acme, Inc. All rights reserved.
+            myworkspace, Inc. All rights reserved.
           </p>
 
           <div className="flex items-center gap-2">
