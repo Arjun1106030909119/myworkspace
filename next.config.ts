@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/Arjun1106030909119/myworkspace.git",
-  assetPrefix: "/Arjun1106030909119/myworkspace.git",
+  basePath: "/myworkspace.git",
+  assetPrefix: "/myworkspace.git",
 };
 
 export default nextConfig;
