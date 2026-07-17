@@ -1,12 +1,9 @@
-/**import type { NextConfig } from "next";*/
+import type { NextConfig } from "next";
 
-const nextConfig = {
-  output: "export",
+const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/myworkspace",
-  assetPrefix: "/myworkspace/",
 };
 
 export default nextConfig;

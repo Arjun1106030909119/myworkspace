@@ -4,9 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "npm run dev",
+    "build": "npm build",
+    "start": "npm start",
     "deploy": "gh-pages -d out",
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
