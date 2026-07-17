@@ -38,16 +38,15 @@ export default function HeaderBlock() {
 
         <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 md:flex">
           {navLinks.map((link) => (
-            <Button
-              key={link.label}
-              render={<a href={link.href} aria-label={link.label} />}
-              nativeButton={false}
-              variant="ghost"
-              size="sm"
-              className="text-muted-foreground hover:text-foreground"
-            >
-              {link.label}
-            </Button>
+            <Link key={link.label} href={link.href}>
+              <Button
+                variant="ghost"
+                size="sm"
+                className="text-muted-foreground hover:text-foreground"
+              >
+                {link.label}
+              </Button>
+            </Link>
           ))}
         </nav>
 
